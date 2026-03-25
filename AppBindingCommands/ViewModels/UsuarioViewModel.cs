@@ -80,6 +80,7 @@ namespace AppBindingCommands.ViewModels
         }
 
         public ICommand CountCommand { get; }
+        //Comentário teste
 
 
         public async Task CleanConfirmation()

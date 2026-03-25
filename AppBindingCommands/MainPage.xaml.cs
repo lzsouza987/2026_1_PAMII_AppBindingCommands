@@ -24,7 +24,7 @@
         private void btnAtualizarInformacoes_Clicked(object sender, EventArgs e)
         {
             string informacoes = string.Empty;
-
+            //Comentário 2
             if (Preferences.ContainsKey("AcaoInicial"))
                 informacoes += Preferences.Get("AcaoInicial", string.Empty);
 
